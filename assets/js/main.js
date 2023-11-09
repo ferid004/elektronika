@@ -1,42 +1,28 @@
+// navbar in engilsi  and usd 
 const english_buton=document.getElementById('english')
-english_buton.addEventListener('click',()=>{
-    console.log("nikosh");
+const english=document.querySelector('.english')
+english_buton.addEventListener('click',(e)=>{
+    e.stopPropagation()
+    if (usd.classList.contains('active')) {
+        usd.classList.remove('active')
+    }
+    english.classList.toggle('active')
+})
+const usd_buton=document.getElementById('usd')
+const usd=document.querySelector('.usd')
+usd_buton.addEventListener('click',(e)=>{
+    e.stopPropagation()
+    if (english.classList.contains('active')) {
+        english.classList.remove('active')
+    }
+    usd.classList.toggle('active')
 })
 
-// const usd_id = document.getElementById('usd_id')
-// const english_id = document.getElementById('english_id')
-// const header_usd_ul = document.querySelector('.header_usd_ul')
-// let en_lu = document.getElementById('en_lu')
-// const header_en_ul = document.querySelector('.header_en_ul')
-// let usd_lu = document.getElementById('usd_lu')
-// usd_id.addEventListener('click', (e) => {
-//     e.stopPropagation()
-//     if (header_en_ul.classList.contains('active')) {
-//         header_en_ul.classList.remove('active')
-//     }
-
-//     // usd_lu.style.transition = '0.9s'
-//     header_usd_ul.classList.toggle('active')
-
-// })
-
-// english_id.addEventListener('click', (e) => {
-//     e.stopPropagation()
+window.addEventListener('click', () => {
+    if (usd.classList.contains('active')){usd.classList.remove('active')}
+    if (english.classList.contains('active')) {english.classList.remove('active')}
+})
+// navbar in engilsi  and usd end
 
 
-//     if (header_usd_ul.classList.contains('active')) {
-//         header_usd_ul.classList.remove('active')
-//     }
-//     header_en_ul.classList.toggle('active')
 
-// })
-
-// window.addEventListener('click', () => {
-
-//     if (header_usd_ul.classList.contains('active')) {
-//         header_usd_ul.classList.remove('active')
-//     }
-//     if (header_en_ul.classList.contains('active')) {
-//         header_en_ul.classList.remove('active')
-//     }
-// })
