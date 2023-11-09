@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../scss/pages/_home.scss","main.css"],"names":[],"mappings":"AACA;EACI,UAAA;EACA,aAAA;EACA,eAAA;ACAJ;ADEI;EACI,aAAA;EACA,WAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,eAAA;ACAR;ADGI;EACI,cAAA;ACDR;ADII;EACI,sBAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,aAAA;ACFR;ADKI;EACI,sBAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,aAAA;ACHR;ADMI;EACI,sBAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,aAAA;ACJR;ADOI;EACI,sBAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,aAAA;ACLR;ADQI;EACI,kBAAA;EACA,eAAA;EACA,gBAAA;EACA,iBAAA;ACNR","file":"main.css"}
+=======
+{"version":3,"sources":["../scss/layout/_navigation.scss","main.css"],"names":[],"mappings":"AAIQ;EACI,oBAAA;EAAA,oBAAA;EAAA,aAAA;EACA,qBAAA;ACHZ","file":"main.css"}
+>>>>>>> ferid
