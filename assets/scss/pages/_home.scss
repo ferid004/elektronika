@@ -1,0 +1,58 @@
+// for international-shipment section
+.elementor_container {
+    gap: 120px;
+    display: flex;
+    font-size: 25px;
+
+    i {
+        display: flex;
+        color: blue;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 50px;
+    }
+
+    p {
+        color: #777777;
+    }
+
+    .international_shipment {
+        border: 1px solid grey;
+        position: relative;
+        display: flex;
+        width: 515px;
+        height: 141px;
+    }
+
+    .online_support {
+        border: 1px solid grey;
+        position: relative;
+        display: flex;
+        width: 515px;
+        height: 141px;
+    }
+
+    .money_return {
+        border: 1px solid grey;
+        position: relative;
+        display: flex;
+        width: 515px;
+        height: 141px;
+    }
+
+    .member_discount {
+        border: 1px solid grey;
+        position: relative;
+        display: flex;
+        width: 515px;
+        height: 141px;
+    }
+
+    .international_shipment_text {
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
