@@ -55,4 +55,59 @@
         font-weight: 400;
         line-height: 22px;
     }
+    .international_shipment_text{
+        width: 160px;
+    }
+}
+
+// for Featured Products section
+.featured_products_title_part {
+    .featured_title_text_part{
+        display: flex;
+        
+        .featured_text_left{
+            margin-left: 20px;
+        }
+        
+        .all_products{
+            margin-right: 20px;
+            display: flex;
+            margin-left: 1215px;
+        }
+    }
+    .hard_part{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    .hard_disk {
+       
+        margin-left: 20px;
+        width: 280px;
+        margin-right: 10px;
+        border: 1px solid black;
+
+        .product_img {
+            width: 100px;
+         
+
+            img {
+                width: 275px;
+                height: 275px;
+            }
+        }
+
+    }
+    .product_text{
+        .gaming_text{
+            color: grey;
+            
+        }
+    
+   .product_icon_pElement{
+    display: flex;
+    color: blue;
+   } 
+}
+}
 }
