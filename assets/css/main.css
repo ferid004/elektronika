@@ -1,4 +1,210 @@
-<<<<<<< HEAD
+#footer {
+  width: auto;
+  height: 620px;
+  padding: 60px 0px 0px;
+  background-color: #031424;
+  margin: 0;
+}
+#footer .left-part {
+  margin-left: 40px;
+}
+#footer .left-part .paragraph {
+  margin-top: 25px;
+}
+#footer .left-part .paragraph p {
+  width: 250px;
+  color: gray;
+}
+#footer .left-part .date {
+  margin-top: 50px;
+  display: flex;
+}
+#footer .left-part .date i {
+  color: orange;
+  font-size: 30px;
+}
+#footer .left-part .date .additional-date {
+  margin-left: 20px;
+}
+#footer .left-part .date .additional-date p {
+  color: gray;
+}
+#footer .left-part .date .additional-date h4 {
+  color: white;
+}
+#footer .left-part .date .additional-date h4:hover {
+  color: orange;
+}
+#footer .left-part .mail {
+  margin-top: 30px;
+  display: flex;
+}
+#footer .left-part .mail i {
+  color: orange;
+  font-size: 35px;
+}
+#footer .left-part .mail .additional-mail {
+  margin-left: 17px;
+}
+#footer .left-part .mail .additional-mail p {
+  color: gray;
+}
+#footer .left-part .mail .additional-mail h4 {
+  color: white;
+}
+#footer .left-part .mail .additional-mail h4:hover {
+  color: orange;
+}
+#footer .left-part .icons {
+  margin-top: 50px;
+}
+#footer .left-part .icons .facebook {
+  width: 47px;
+  height: 47px;
+  background-color: rgb(248, 248, 250);
+  color: rgb(28, 95, 182);
+  border-radius: 5px;
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .left-part .icons .facebook:hover {
+  background-color: orange;
+  color: white;
+}
+#footer .left-part .icons .youtube {
+  width: 47px;
+  height: 47px;
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .left-part .icons .youtube:hover {
+  background-color: orange;
+  color: white;
+}
+#footer .left-part .icons .twitter {
+  width: 47px;
+  height: 47px;
+  background-color: white;
+  color: rgb(0, 102, 255);
+  border-radius: 5px;
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .left-part .icons .twitter:hover {
+  background-color: orange;
+  color: white;
+}
+#footer .left-part .icons .ln {
+  width: 47px;
+  height: 47px;
+  background-color: white;
+  color: rgb(30, 84, 183);
+  border-radius: 5px;
+  margin-left: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .left-part .icons .ln:hover {
+  background-color: orange;
+  color: white;
+}
+#footer .right-part .about-us {
+  position: fixed;
+  top: 16%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+#footer .right-part .about-us h2 {
+  color: white;
+}
+#footer .right-part .about-us p {
+  color: gray;
+  font-size: 18px;
+  width: 330px;
+  padding-top: 10px;
+}
+#footer .right-part .about-us .arrow-btn {
+  margin-top: 20px;
+}
+#footer .right-part .about-us .arrow-btn a {
+  color: white;
+}
+#footer .right-part .about-us .arrow-btn a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+#footer .information {
+  position: fixed;
+  top: 6%;
+  left: 50%;
+  margin-left: 1px;
+}
+#footer .information h2 {
+  color: white;
+}
+#footer .information ul {
+  margin-top: 10px;
+}
+#footer .information ul li {
+  margin-top: 10px;
+}
+#footer .information ul li a {
+  color: gray;
+}
+#footer .information ul li a:hover {
+  transition: 0.5s;
+  color: white;
+}
+#footer .my-account {
+  position: fixed;
+  top: 6%;
+  left: 60%;
+  margin-left: 35px;
+}
+#footer .my-account h2 {
+  color: white;
+}
+#footer .my-account ul {
+  margin-top: 10px;
+}
+#footer .my-account ul li {
+  margin-top: 15px;
+}
+#footer .my-account ul li a {
+  color: gray;
+}
+#footer .my-account ul li a:hover {
+  color: white;
+  transition: 0.5s;
+}
+#footer .get-newsletter {
+  position: fixed;
+  top: 6%;
+  left: 70%;
+  margin-left: 35px;
+}
+#footer .get-newsletter h2 {
+  color: white;
+}
+#footer .get-newsletter p {
+  color: gray;
+}
+
+nav .nav_dev .small_info {
+  display: flex;
+  background-color: red;
+}
+
 .elementor_container {
   gap: 120px;
   display: flex;
@@ -48,11 +254,4 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-=======
-nav .nav_dev .small_info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: red;
->>>>>>> ferid
 }/*# sourceMappingURL=main.css.map */
