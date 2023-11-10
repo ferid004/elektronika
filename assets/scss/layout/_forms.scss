@@ -1,217 +1,321 @@
 #footer {
-    width: auto;
-    height: 620px;
-  
-    padding: 60px 0px 0px;
-    background-color: #031424;
-  
-    margin: 0;
-    .left-part {
-      margin-left: 40px;
-      .paragraph {
-        margin-top: 25px;
-        p {
-          width: 250px;
-          color: gray;
-        }
-      }
-      .date {
-        margin-top: 50px;
-        display: flex;
-        i {
-          color: orange;
-          font-size: 30px;
-        }
-        .additional-date {
-          margin-left: 20px;
-          p {
-            color: gray;
-          }
-          h4 {
-            color: white;
-          }
-          h4:hover {
-            color: orange;
-          }
-        }
-      }
-      .mail {
-        margin-top: 30px;
-        display: flex;
-        i {
-          color: orange;
-          font-size: 35px;
-        }
-        .additional-mail {
-          margin-left: 17px;
-          p {
-            color: gray;
-          }
-          h4 {
-            color: white;
-          }
-          h4:hover {
-            color: orange;
-          }
-        }
-      }
-  
-      .icons {
-        margin-top: 50px;
-        .facebook {
-          width: 47px;
-          height: 47px;
-          background-color: rgb(248, 248, 250);
-          color: rgb(28, 95, 182);
-          border-radius: 5px;
-          margin-left: 6px;
-          display: inline-flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .facebook:hover {
-          background-color: orange;
-          color: white;
-        }
-  
-        .youtube {
-          width: 47px;
-          height: 47px;
-          background-color: white;
-          color: red;
-          border-radius: 5px;
-          margin-left: 6px;
-          display: inline-flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .youtube:hover {
-          background-color: orange;
-          color: white;
-        }
-  
-        .twitter {
-          width: 47px;
-          height: 47px;
-          background-color: white;
-          color: rgb(0, 102, 255);
-          border-radius: 5px;
-          margin-left: 6px;
-          display: inline-flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .twitter:hover {
-          background-color: orange;
-          color: white;
-        }
-  
-        .ln {
-          width: 47px;
-          height: 47px;
-          background-color: white;
-          color: rgb(30, 84, 183);
-          border-radius: 5px;
-          margin-left: 6px;
-          display: inline-flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .ln:hover {
-          background-color: orange;
-          color: white;
-        }
-      }
-    }
-  
-    .right-part {
-      .about-us {
-        position: fixed;
-        top: 16%;
-        left: 35%;
-        transform: translate(-50%, -50%);
-  
-        h2 {
-          color: white;
-        }
-        p {
-          color: gray;
-          font-size: 18px;
-          width: 330px;
-          padding-top: 10px;
-        }
-        .arrow-btn {
-          margin-top: 20px;
-          a {
-            color: white;
-          }
-  
-          a:hover {
-            color: orange;
-            transition: 0.5s;
-          }
-        }
-      }
-    }
-  
-    .information{
-      position: fixed;
-      top: 6%;
-      left: 50%;
-      margin-left: 1px;
-      h2{
-        color: white;
-      }
-      ul{
-        margin-top: 10px;
-        li{
-          margin-top: 10px;
-          a{
-            
-            color: gray;
-          }
-          a:hover{
-            transition: 0.5s;
-            color: white;
-          }
-        }
-      }
-    }
-  
-    .my-account{
-      position: fixed;
-      top: 6%;
-      left: 60%;
-      margin-left: 35px;
-      h2{
-        color:white;
-      }
-      ul{
-        margin-top: 10px;
-        li{
-          margin-top: 15px;
-          a{
-            color: gray;
-          }
-          a:hover{
-            color: white;
-            transition: 0.5s;
-          }
-        }
-      }
-    }
-  
-    .get-newsletter{
-      position: fixed;
-      top: 6%;
-      left: 70%;
-      margin-left: 35px;
-      h2{
-        color: white;
-      }
-      p{
+  width: auto;
+  height: 620px;
+
+  padding: 60px 0px 0px;
+  background-color: #031424;
+
+  margin: 0;
+  .left-part {
+    color: #bababa;
+    margin-left: 40px;
+    .paragraph {
+      margin-top: 25px;
+      p {
+        width: 250px;
         color: gray;
       }
     }
+    .date {
+      margin-top: 50px;
+      display: flex;
+      i {
+        color: orange;
+        font-size: 30px;
+        margin-top: 4px;
+      }
+      .additional-date {
+        margin-left: 20px;
+        p {
+          color: gray;
+        }
+        a {
+          text-decoration: none;
+          h4 {
+            color: white;
+          }
+          h4:hover {
+            color: orange;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+    .mail {
+      margin-top: 30px;
+      display: flex;
+      i {
+        color: orange;
+        font-size: 35px;
+        margin-top: 4px;
+      }
+      .additional-mail {
+        margin-left: 17px;
+
+        p {
+          color: gray;
+        }
+        a {
+          text-decoration: none;
+          h4 {
+            color: white;
+          }
+          h4:hover {
+            color: orange;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+
+    .icons {
+      margin-top: 50px;
+
+      .facebook {
+        width: 47px;
+        height: 47px;
+        background-color: rgb(248, 248, 250);
+        color: rgb(28, 95, 182);
+        border-radius: 5px;
+        margin-left: 6px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+      .facebook:hover {
+        background-color: orange;
+        color: white;
+      }
+
+      .youtube {
+        width: 47px;
+        height: 47px;
+        background-color: white;
+        color: red;
+        border-radius: 5px;
+        margin-left: 6px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+      .youtube:hover {
+        background-color: orange;
+        color: white;
+      }
+
+      .twitter {
+        width: 47px;
+        height: 47px;
+        background-color: white;
+        color: rgb(0, 102, 255);
+        border-radius: 5px;
+        margin-left: 6px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+      .twitter:hover {
+        background-color: orange;
+        color: white;
+      }
+
+      .ln {
+        width: 47px;
+        height: 47px;
+        background-color: white;
+        color: rgb(30, 84, 183);
+        border-radius: 5px;
+        margin-left: 6px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+      .ln:hover {
+        background-color: orange;
+        color: white;
+      }
+    }
   }
-  
+
+  .right-part {
+    .about-us {
+      position: fixed;
+      top: 16%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+
+      h2 {
+        color: white;
+      }
+      p {
+        color: gray;
+        font-size: 18px;
+        width: 330px;
+        padding-top: 10px;
+      }
+      .arrow-btn {
+        margin-top: 20px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: orange;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+
+  .information {
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    margin-left: 1px;
+    h2 {
+      color: white;
+    }
+    ul {
+      margin-top: 10px;
+      li {
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: gray;
+        }
+        a:hover {
+          transition: 0.5s;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .my-account {
+    position: fixed;
+    top: 6%;
+    left: 60%;
+    margin-left: 35px;
+    h2 {
+      color: white;
+    }
+    ul {
+      margin-top: 10px;
+      li {
+        margin-top: 15px;
+        a {
+          text-decoration: none;
+          color: gray;
+        }
+        a:hover {
+          color: white;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+
+  .get-newsletter {
+    position: fixed;
+    top: 6%;
+    left: 70%;
+    margin-left: 100px;
+    h2 {
+      color: white;
+    }
+    p {
+      margin-top: 15px;
+      color: gray;
+    }
+    input {
+      background-color: #0a2137;
+      color: white;
+      padding: 10px 18px;
+      width: 280px;
+      height: 27px;
+      border: #031424;
+      margin-top: 20px;
+    }
+
+    .subscribe {
+      button {
+        background-color: #ffbd27;
+        width: 127px;
+        height: 38px;
+        border-radius: 7px;
+        padding: 10px 30px;
+        margin-top: 10px;
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+      button:hover {
+        background-color: white;
+        transition: 0.5s;
+      }
+    }
+  }
+
+  .directions {
+    .order {
+      position: fixed;
+      top: 39%;
+      left: 30%;
+      width: 1000px;
+      height: 90px;
+      background-color: #ffbd27;
+      border-radius: 10px;
+
+      h3 {
+        color: black;
+        margin-top: 33px;
+        margin-left: 35px;
+      }
+    }
+
+    .app {
+      .store {
+        position: fixed;
+        top: 42%;
+        left: 55%;
+      }
+
+      .play {
+        position: fixed;
+        top: 42%;
+        left: 65.5%;
+      }
+    }
+
+    .trade {
+      position: fixed;
+      top: 44%;
+      left: 78%;
+    }
+  }
+
+  .bottom-section {
+    margin-top: 0px;
+    width: auto;
+    height: 90px;
+    background-color: #031424;
+    p {
+      position: fixed;
+      top: 60%;
+      left: 40%;
+      color: gray;
+      margin-top: 0.1px;
+      font-size: 18px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 #footer {
   width: auto;
   height: 620px;
@@ -6,6 +13,7 @@
   margin: 0;
 }
 #footer .left-part {
+  color: #bababa;
   margin-left: 40px;
 }
 #footer .left-part .paragraph {
@@ -22,6 +30,7 @@
 #footer .left-part .date i {
   color: orange;
   font-size: 30px;
+  margin-top: 4px;
 }
 #footer .left-part .date .additional-date {
   margin-left: 20px;
@@ -29,11 +38,15 @@
 #footer .left-part .date .additional-date p {
   color: gray;
 }
-#footer .left-part .date .additional-date h4 {
+#footer .left-part .date .additional-date a {
+  text-decoration: none;
+}
+#footer .left-part .date .additional-date a h4 {
   color: white;
 }
-#footer .left-part .date .additional-date h4:hover {
+#footer .left-part .date .additional-date a h4:hover {
   color: orange;
+  transition: 0.5s;
 }
 #footer .left-part .mail {
   margin-top: 30px;
@@ -42,6 +55,7 @@
 #footer .left-part .mail i {
   color: orange;
   font-size: 35px;
+  margin-top: 4px;
 }
 #footer .left-part .mail .additional-mail {
   margin-left: 17px;
@@ -49,11 +63,15 @@
 #footer .left-part .mail .additional-mail p {
   color: gray;
 }
-#footer .left-part .mail .additional-mail h4 {
+#footer .left-part .mail .additional-mail a {
+  text-decoration: none;
+}
+#footer .left-part .mail .additional-mail a h4 {
   color: white;
 }
-#footer .left-part .mail .additional-mail h4:hover {
+#footer .left-part .mail .additional-mail a h4:hover {
   color: orange;
+  transition: 0.5s;
 }
 #footer .left-part .icons {
   margin-top: 50px;
@@ -68,6 +86,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 #footer .left-part .icons .facebook:hover {
   background-color: orange;
@@ -83,6 +102,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 #footer .left-part .icons .youtube:hover {
   background-color: orange;
@@ -98,6 +118,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 #footer .left-part .icons .twitter:hover {
   background-color: orange;
@@ -113,6 +134,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 #footer .left-part .icons .ln:hover {
   background-color: orange;
@@ -138,6 +160,7 @@
 }
 #footer .right-part .about-us .arrow-btn a {
   color: white;
+  text-decoration: none;
 }
 #footer .right-part .about-us .arrow-btn a:hover {
   color: orange;
@@ -159,6 +182,7 @@
   margin-top: 10px;
 }
 #footer .information ul li a {
+  text-decoration: none;
   color: gray;
 }
 #footer .information ul li a:hover {
@@ -181,6 +205,7 @@
   margin-top: 15px;
 }
 #footer .my-account ul li a {
+  text-decoration: none;
   color: gray;
 }
 #footer .my-account ul li a:hover {
@@ -191,13 +216,86 @@
   position: fixed;
   top: 6%;
   left: 70%;
-  margin-left: 35px;
+  margin-left: 100px;
 }
 #footer .get-newsletter h2 {
   color: white;
 }
 #footer .get-newsletter p {
+  margin-top: 15px;
   color: gray;
+}
+#footer .get-newsletter input {
+  background-color: #0a2137;
+  color: white;
+  padding: 10px 18px;
+  width: 280px;
+  height: 27px;
+  border: #031424;
+  margin-top: 20px;
+}
+#footer .get-newsletter .subscribe button {
+  background-color: #ffbd27;
+  width: 127px;
+  height: 38px;
+  border-radius: 7px;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+#footer .get-newsletter .subscribe button a {
+  color: black;
+  text-decoration: none;
+}
+#footer .get-newsletter .subscribe button:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+#footer .directions .order {
+  position: fixed;
+  top: 39%;
+  left: 30%;
+  width: 1000px;
+  height: 90px;
+  background-color: #ffbd27;
+  border-radius: 10px;
+}
+#footer .directions .order h3 {
+  color: black;
+  margin-top: 33px;
+  margin-left: 35px;
+}
+#footer .directions .app .store {
+  position: fixed;
+  top: 42%;
+  left: 55%;
+}
+#footer .directions .app .play {
+  position: fixed;
+  top: 42%;
+  left: 65.5%;
+}
+#footer .directions .trade {
+  position: fixed;
+  top: 44%;
+  left: 78%;
+}
+#footer .bottom-section {
+  margin-top: 0px;
+  width: auto;
+  height: 90px;
+  background-color: #031424;
+}
+#footer .bottom-section p {
+  position: fixed;
+  top: 60%;
+  left: 40%;
+  color: gray;
+  margin-top: 0.1px;
+  font-size: 18px;
+}
+#footer .bottom-section p a {
+  color: white;
+  text-decoration: none;
 }
 
 nav .nav_dev .small_info {
