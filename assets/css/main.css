@@ -267,6 +267,10 @@ a {
   font-weight: 600;
   font-size: 20px;
 }
+#Blog .blog_container .box1 .down .mid:hover {
+  color: #0a66c2;
+  text-decoration: underline;
+}
 #Blog .blog_container .box1 .down .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,6 +364,10 @@ a {
   font-weight: 600;
   font-size: 20px;
 }
+#Blog .blog_container .box2 .down .mid:hover {
+  color: #0a66c2;
+  text-decoration: underline;
+}
 #Blog .blog_container .box2 .down .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -452,6 +460,10 @@ a {
 #Blog .blog_container .box3 .down .mid {
   font-weight: 600;
   font-size: 20px;
+}
+#Blog .blog_container .box3 .down .mid:hover {
+  color: #0a66c2;
+  text-decoration: underline;
 }
 #Blog .blog_container .box3 .down .bottom {
   display: -webkit-box;
