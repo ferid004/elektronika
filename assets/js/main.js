@@ -129,5 +129,3 @@ blog_buton.addEventListener("click", (e) => {
 // })
 
 // tab open and close navbar end
-
-
