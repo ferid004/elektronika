@@ -9,9 +9,13 @@ img {
   height: 100%;
 }
 
+section {
+  padding-top: 40px;
+}
+
 .elementor_container {
   display: flex;
-  font-size: 25px;
+  font-size: 15px;
   justify-content: center;
   gap: 15px;
 }
@@ -33,6 +37,7 @@ img {
   line-height: 22px;
 }
 .elementor_container .international_shipment_text {
+  justify-content: center;
   width: 160px;
 }
 .elementor_container .left {
@@ -44,11 +49,13 @@ img {
   border: 1px solid grey;
   display: flex;
   height: 141px;
+  box-shadow: 2px 4px grey;
 }
 .elementor_container .left .online_support {
   border: 1px solid grey;
   display: flex;
   height: 141px;
+  box-shadow: 2px 4px grey;
 }
 .elementor_container .right {
   display: flex;
@@ -59,11 +66,13 @@ img {
   border: 1px solid grey;
   display: flex;
   height: 141px;
+  box-shadow: 2px 4px grey;
 }
 .elementor_container .right .member_discount {
   border: 1px solid grey;
   display: flex;
   height: 141px;
+  box-shadow: 2px 4px grey;
 }
 
 @media only screen and (max-width: 992px) {
@@ -207,7 +216,8 @@ img {
   margin-left: 20px;
   width: 280px;
   margin-right: 10px;
-  border: 1px solid black;
+  border: 1px solid grey;
+  box-shadow: 2px 4px #777777;
 }
 .featured_products_title_part .hard_part .hard_disk .product_img {
   width: 275px;
@@ -215,6 +225,7 @@ img {
 }
 .featured_products_title_part .hard_part .product_text .gaming_text {
   color: grey;
+  justify-content: center;
 }
 .featured_products_title_part .hard_part .product_text .product_icon_pElement {
   display: flex;
@@ -233,9 +244,60 @@ img {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 992px) {
+  .featured_products_title_part .featured_title_text_part {
+    display: column;
+  }
+  .featured_products_title_part .featured_title_text_part .featured_text_left {
+    margin-left: 20px;
+  }
+  .featured_products_title_part .featured_title_text_part .all_products {
+    margin-right: 20px;
+    display: column;
+    margin-left: 1215px;
+  }
+  .featured_products_title_part .hard_part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .featured_products_title_part .hard_part .hard_disk {
+    margin-left: 20px;
+    width: 280px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    box-shadow: 2px 4px #777777;
+  }
+  .featured_products_title_part .hard_part .hard_disk .product_img {
+    width: 275px;
+    height: 275px;
+  }
+  .featured_products_title_part .hard_part .product_text .gaming_text {
+    color: grey;
+    justify-content: center;
+  }
+  .featured_products_title_part .hard_part .product_text .product_icon_pElement {
+    display: flex;
+    color: blue;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .image img:hover {
+    /* IE 9 */
+    /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+}
 .container {
+  justify-content: center;
   display: flex;
   gap: 14px;
+  font-size: 20px;
+  top: 30px;
 }
 
 .shipping-payment-services {
