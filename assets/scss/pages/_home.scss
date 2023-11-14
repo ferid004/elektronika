@@ -1,9 +1,10 @@
-section{
+section {
     padding-top: 40px;
 }
+
 // for international-shipment section
 .elementor_container {
-   
+
     display: flex;
     font-size: 15px;
     justify-content: center;
@@ -85,235 +86,244 @@ section{
             box-shadow: 2px 4px grey;
         }
 
-        
+
     }
 }
+
 @media only screen and (max-width: 992px) {
     .elementor_container {
-        
-            // gap: 120px;
+
+        // gap: 120px;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        gap: 15px;
+
+        i {
             display: flex;
-            font-size: 25px;
+            color: blue;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 50px;
+        }
+
+        p {
+            color: #777777;
+        }
+
+        .international_shipment_text {
+            padding-left: 20px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+
+        .international_shipment_text {
+            width: 160px;
+        }
+
+        .left {
             justify-content: center;
             gap: 15px;
-        
-            i {
+            display: flex;
+            flex-direction: column;
+
+
+
+            .international_shipment {
+                border: 1px solid grey;
+                // position: relative;
                 display: flex;
-                color: blue;
-                justify-content: center;
-                align-items: center;
-                padding-left: 20px;
-                font-size: 50px;
+                // width: 515px;
+                height: 141px;
             }
-        
-            p {
-                color: #777777;
-            }
-        
-            .international_shipment_text {
-                padding-left: 20px;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 22px;
-            }
-        
-            .international_shipment_text {
-                width: 160px;
-            }
-        
-            .left {
-                justify-content: center;
-                gap: 15px;
+
+            .online_support {
+                border: 1px solid grey;
+                // position: relative;
                 display: flex;
-                flex-direction: column;
-        
-        
-        
-                .international_shipment {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-        
-                .online_support {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-            }
-        
-            .right {
-                display: flex;
-                justify-content: center;
-                gap: 15px;
-                flex-direction: column;
-        
-                .money_return {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-        
-                .member_discount {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-        
-                
+                // width: 515px;
+                height: 141px;
             }
         }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-direction: column;
+
+            .money_return {
+                border: 1px solid grey;
+                // position: relative;
+                display: flex;
+                // width: 515px;
+                height: 141px;
+            }
+
+            .member_discount {
+                border: 1px solid grey;
+                // position: relative;
+                display: flex;
+                // width: 515px;
+                height: 141px;
+            }
+
+
+        }
     }
+}
+
 @media only screen and (max-width: 425px) {
     .elementor_container {
-            flex-direction: column;
-        
-            // gap: 120px;
+        flex-direction: column;
+
+        // gap: 120px;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        gap: 15px;
+
+        i {
             display: flex;
-            font-size: 25px;
+            color: blue;
+            justify-content: center;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 50px;
+        }
+
+        p {
+            color: #777777;
+        }
+
+        .international_shipment_text {
+            padding-left: 20px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+
+        .international_shipment_text {
+            width: 160px;
+        }
+
+        .left {
             justify-content: center;
             gap: 15px;
-        
-            i {
+            display: flex;
+            flex-direction: column;
+
+
+
+            .international_shipment {
+                border: 1px solid grey;
+                // position: relative;
                 display: flex;
-                color: blue;
-                justify-content: center;
-                align-items: center;
-                padding-left: 20px;
-                font-size: 50px;
+                // width: 515px;
+                height: 141px;
             }
-        
-            p {
-                color: #777777;
-            }
-        
-            .international_shipment_text {
-                padding-left: 20px;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 22px;
-            }
-        
-            .international_shipment_text {
-                width: 160px;
-            }
-        
-            .left {
-                justify-content: center;
-                gap: 15px;
+
+            .online_support {
+                border: 1px solid grey;
+                // position: relative;
                 display: flex;
-                flex-direction: column;
-        
-        
-        
-                .international_shipment {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-        
-                .online_support {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-            }
-        
-            .right {
-                display: flex;
-                justify-content: center;
-                gap: 15px;
-                flex-direction: column;
-        
-                .money_return {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-        
-                .member_discount {
-                    border: 1px solid grey;
-                    // position: relative;
-                    display: flex;
-                    // width: 515px;
-                    height: 141px;
-                }
-        
-                
+                // width: 515px;
+                height: 141px;
             }
         }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-direction: column;
+
+            .money_return {
+                border: 1px solid grey;
+                // position: relative;
+                display: flex;
+                // width: 515px;
+                height: 141px;
+            }
+
+            .member_discount {
+                border: 1px solid grey;
+                // position: relative;
+                display: flex;
+                // width: 515px;
+                height: 141px;
+            }
+
+
+        }
     }
- 
+}
+
 
 // for Featured Products section
 .featured_products_title_part {
+    width: 100%;
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+
     .featured_title_text_part {
         display: flex;
+        justify-content: space-between;
 
-        .featured_text_left {
-            margin-left: 20px;
-        }
+        
 
         .all_products {
-            margin-right: 20px;
+            // margin-right: 20px;
             display: flex;
-            margin-left: 1215px;
+            // margin-left: 1215px;
         }
     }
 
-   
+
     .hard_part {
+        padding: 40px 50px;
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 10px;
 
         .hard_disk {
 
-            margin-left: 20px;
-            width: 280px;
-            margin-right: 10px;
+            width: 30%;
+            // height: 500px;
             border: 1px solid grey;
-            box-shadow:2px 4px #777777;
-           
+            box-shadow: 2px 4px #777777;
+
 
             .product_img {
-                // width: 100px;
-                width: 275px;
-                height: 275px;
+                width: 100%;
+                height: 60%;
 
 
-                // img {
-                //    max
-                // }
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
 
-        }
+            .product_text {
+                height: 40%;
+                padding: 40px 40px;
 
-        .product_text {
-            .gaming_text {
-                color: grey;
-                justify-content: center;
+                .gaming_text {
+                    color: grey;
 
+                }
+
+                .product_icon_pElement {
+                    display: flex;
+                    color: blue;
+                }
             }
 
-            .product_icon_pElement {
-                display: flex;
-                color: blue;
-            }
         }
     }
 }
@@ -325,80 +335,6 @@ section{
     padding-left: 50px;
 
 
-img:hover {
-    -ms-transform: scale(1.1);
-    /* IE 9 */
-    -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
-    transform: scale(1.1);
-}
-}
-@media only screen and (max-width: 992px) {
-    .featured_products_title_part {
-        .featured_title_text_part {
-            display: column;
-    
-            .featured_text_left {
-                margin-left: 20px;
-            }
-    
-            .all_products {
-                margin-right: 20px;
-                display: column;
-                margin-left: 1215px;
-            }
-        }
-    
-       
-        .hard_part {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-            .hard_disk {
-    
-                margin-left: 20px;
-                width: 280px;
-                margin-right: 10px;
-                border: 1px solid grey;
-                box-shadow:2px 4px #777777;
-               
-    
-                .product_img {
-                    // width: 100px;
-                    width: 275px;
-                    height: 275px;
-    
-    
-                    // img {
-                    //    max
-                    // }
-                }
-    
-            }
-    
-            .product_text {
-                .gaming_text {
-                    color: grey;
-                    justify-content: center;
-    
-                }
-    
-                .product_icon_pElement {
-                    display: flex;
-                    color: blue;
-                }
-            }
-        }
-    }
-    
-    .image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 50px;
-    
-    
     img:hover {
         -ms-transform: scale(1.1);
         /* IE 9 */
@@ -406,8 +342,41 @@ img:hover {
         /* Safari 3-8 */
         transform: scale(1.1);
     }
+}
+
+@media only screen and (max-width: 678px) {
+    #products {
+        padding: 40px 0;
+
+        .featured_products_title_part {
+            width: 100%;
+            .hard_part {
+                flex-wrap: wrap;
+                padding: 0;
+
+                .hard_disk {
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+
+        }
     }
-  }
+}
+
+@media only screen and (min-width: 678px) and (max-width: 1024px) {
+    #products {
+        .hard_part {
+            flex-wrap: wrap;
+
+            .hard_disk {
+                width: 47%;
+            }
+        }
+    }
+}
+
+
 
 
 .container {
